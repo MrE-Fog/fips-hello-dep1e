@@ -1,13 +1,8 @@
 # fips.yml template
 ---
-# name: project name
-# cmake: location of root CMakeLists.txt file
-# depends:
-#     project-name:
-#         url: git-url
-#     ...
-
-
+imports:
+    git@github.com:floooh/fips-hello-dep2.git:
+        dep1: dep1
 
 
 
