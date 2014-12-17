@@ -1,8 +1,7 @@
 #fips.yml template
 ---
 imports:
-    git@github.com:floooh/fips-hello-dep2.git:
-        dep1: dep1
+    git@github.com:floooh/fips-hello-dep2.git: [dep2]
 
 exports:
     dep1: src/dep1
