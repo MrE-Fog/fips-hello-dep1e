@@ -1,6 +1,7 @@
 ---
 imports:
-    - https://github.com/floooh/fips-hello-dep2.git
+    fips-hello-dep2:
+        git:    https://github.com/floooh/fips-hello-dep2.git
 
 exports:
     header-dirs : [ src ]
