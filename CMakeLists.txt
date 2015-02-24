@@ -10,6 +10,7 @@ fips_setup()
 fips_project(fips-hello-dep1)
 fips_add_subdirectory(src/dep1)
 fips_add_subdirectory(src/test)
+fips_add_subdirectory(src/sharedlib_test)
 fips_finish()
 
 
